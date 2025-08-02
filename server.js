@@ -13,7 +13,7 @@
     app.use(cors());
 
     app.post('/', async (req, res) => { 
-        console.log("sna")
+      
         try {
             const { url } = req.body;
     
